@@ -1,0 +1,109 @@
+.list {
+  margin: auto;
+  max-width: 938px;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin: 26px 0;
+  padding: 16px;
+  font-size: 0.8rem;
+  box-shadow: 0 4px 12px rgba(0,0,0, 0.15);
+  background: var(--background-color-base);
+}
+
+.article-details {
+  width: 600px;
+}
+
+.article-header {
+  display: flex;
+  align-items: center;
+}
+
+.article-title {
+  margin-right: 13px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--primary-color);
+}
+
+.article-like {
+  display: flex;
+  align-items: center;
+}
+
+.article-like * {
+  display: block;
+}
+
+.likes-heart {
+  margin-right: 5px;
+}
+
+.article-tags {
+  margin: 6px 0;
+  color: var(--text-color-secondary);
+}
+
+.article-tags span {
+  padding: 2px 5px 3px;
+  border-radius: 3px;
+  border: 1px solid var(--text-color-secondary);
+}
+
+.article-tags span + span {
+  margin-left: 8px;
+}
+
+.first-tag {
+  color: var(--text-color);
+}
+
+.article-author {
+  display: flex;
+  align-items: center;
+}
+
+.article-author img {
+  margin-left: 12px;
+}
+
+.author-info {
+  text-align: right;
+}
+
+.author-name {
+  font-size: 1.1rem;
+}
+
+.article-date {
+  color: var(--text-color-secondary);
+}
+
+.pagination {
+  display: flex;
+  margin: 0 auto 17px;
+  width: 200px;
+  font-size: 0.8rem;
+}
+
+.pagination div {
+  padding: 3px 8px;
+}
+
+.pagination div + div {
+  margin-left: 5px;
+}
+
+.active-page {
+  background: var(--primary-color);
+  color: var(--background-color-base);
+  border-radius: 4px;
+}
+
+.disabled {
+  color: var(--disabled-color);
+}

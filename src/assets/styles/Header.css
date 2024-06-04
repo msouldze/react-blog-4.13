@@ -1,0 +1,25 @@
+.blog-header {
+  font-size: 1.15rem;
+}
+
+.blog-header ul {
+  display: flex;
+}
+
+.blog-header li {
+  padding: 10px 15px;
+}
+
+.blog-header li:hover {
+  cursor: pointer;
+}
+
+.blog-header li.active {
+  color: var(--success-color);
+  border-radius: 5px;
+  border: 1px solid var(--success-color);
+}
+
+.blog-header li + li {
+  margin-left: 20px;
+}
